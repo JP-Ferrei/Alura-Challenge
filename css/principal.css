@@ -1,0 +1,21 @@
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.principal__fundo{
+    /* position: absolute; */
+    background: #6BD1FF;
+    
+}
+
+
+.principal__container{
+
+}
+
+.principal__botao{
+
+}

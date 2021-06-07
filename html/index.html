@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/principal.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img class="logo" src="../img/Logo.svg" alt="logo alura dev" >
+        </div>
+
+        <div class="cabecalho__buscar">
+            <input type="search" name="busca" id="busca" class="input__buscar" placeholder="Busque por algo">
+        </div>
+
+        <div class="cabecalho__perfil">
+            <img class="perfil__foto" src="../img/Photo.png" alt="foto perfil">
+            <p class="perfil__nome">Harry</p>
+        </div>
+
+
+    </header>
+
+    <section class="corpo">
+        <nav class="menu">
+            <h1 class="menu__titulo">Menu</h1>
+
+            <ul class="menu__lista">
+                <li class="lista__itens">
+                    <img class="imagem__item" src="../img/editor.png" alt="imagem editor">
+                    <a class ="item__link" href="#">Editor de código</a>
+                </li>
+                <li class="lista__itens">
+                    <img class="imagem__item" src="../img/comunidade.png" alt="imagem comunidade">
+                    <a class ="item__link" href="#">Comunidade</a>
+                </li>
+            </ul>
+
+        </nav>
+        
+        <main class="principal">
+            <div class="principal__fundo">
+                <div class="principal__container">
+                    <div class="bola bola_vermelha"></div>
+                    <div class="bola bola_amarela"></div>
+                    <div class="bola bola_verde"></div>
+                    <textarea name="codigo" id="codigo" cols="30" rows="10" placeholder="Escrava seu código"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <input class="principal__botao" type="button" value="Visualizar com o highlight">
+            </div>
+        </main>
+
+        <section class="projeto">
+
+            <form action="">
+                <h1>Seu projeto</h1>
+                <div>
+                    <input type="text" name="nome-projeto" id="nome-projeto"  placeholder="Nome do seu projeto">
+                    <input type="text" name="descricao-projeto" id="descricao-projeto" placeholder="Descrição do seu projeto=">
+                </div>
+
+                <h1>personalização</h1>
+                <div>
+                    <select name="linguagens" id="linguagens" >
+                        <option value="0" selected="">JavaScript</option>
+                        <option value="1" selected="">Java</option>
+                        <option value="2" selected="">C</option>
+                        <option value="3" selected="">C++</option>
+                        <option value="4" selected="">Python</option>
+                    </select>
+                </div>
+
+            </form>
+
+        </section>
+                
+    </section>
+</body>
+</html>

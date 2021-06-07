@@ -1,0 +1,21 @@
+
+.lista__itens{
+    padding-top: 16px;
+    display: flex; 
+    align-items: center;
+}
+
+
+.imagem__item{
+    background-color: #5081FB;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.item__link{
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

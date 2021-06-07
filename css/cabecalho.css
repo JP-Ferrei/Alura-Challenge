@@ -1,0 +1,47 @@
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 56px;
+    margin-bottom: 32px;
+}
+
+.cabecalho__logo{
+    /* width: 10%; */
+}
+.cabecalho__buscar{
+    width: 50%;
+}
+
+.input__buscar{
+    width: 100%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    flex: none;
+    color: #FFFFFF;
+    border: none;
+}
+
+.input__buscar::placeholder{
+    padding-left: 10px;
+    color: #FFFFFF;
+    opacity: 0.64;
+}
+
+.cabecalho__perfil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* width: 10%; */
+}
+
+.perfil__foto{
+    margin-right:10px ; 
+}
+
+
+.perfil__nome{
+    color: white;
+}
