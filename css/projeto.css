@@ -1,0 +1,16 @@
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+.projeto h1{
+    font-size: 11px;
+    margin: 20px 0;
+}
+.seu__projeto{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/cabecalho.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/projeto.css".css">
 </head>
 <body>
     <header class="cabecalho">
@@ -52,7 +53,7 @@
                     <div class="bola bola_vermelha"></div>
                     <div class="bola bola_amarela"></div>
                     <div class="bola bola_verde"></div>
-                    <textarea name="codigo" id="codigo" cols="30" rows="10" placeholder="Escrava seu código"></textarea>
+                    <textarea class="codigo"name="codigo" id="codigo" cols="30" rows="10" placeholder="Escrava seu código"></textarea>
                 </div>
             </div>
 
@@ -63,22 +64,25 @@
 
         <section class="projeto">
 
-            <form action="">
+            <form class= "projeto" action="">
                 <h1>Seu projeto</h1>
-                <div>
-                    <input type="text" name="nome-projeto" id="nome-projeto"  placeholder="Nome do seu projeto">
-                    <input type="text" name="descricao-projeto" id="descricao-projeto" placeholder="Descrição do seu projeto=">
+                <div class="seu__projeto">
+                    <input type="text" name="nome-projeto" id="nome-projeto" class="input__projeto"  placeholder="Nome do seu projeto">
+                    <input type="text" name="descricao-projeto" id="descricao-projeto" class="input__projeto" placeholder="Descrição do seu projeto">
                 </div>
 
                 <h1>personalização</h1>
-                <div>
-                    <select name="linguagens" id="linguagens" >
-                        <option value="0" selected="">JavaScript</option>
-                        <option value="1" selected="">Java</option>
-                        <option value="2" selected="">C</option>
-                        <option value="3" selected="">C++</option>
-                        <option value="4" selected="">Python</option>
+                <div class="personalizacao">
+                    <select name="linguagens" id="linguagens" class="input__projeto input__personalizacao"   >
+                        <option value="0" selected >JavaScript</option>
+                        <option value="1" >Java</option>
+                        <option value="2" >C</option>
+                        <option value="3" >C++</option>
+                        <option value="4" >Python</option>
                     </select>
+
+
+                    <input type="button" value="Salvar projeto">
                 </div>
 
             </form>

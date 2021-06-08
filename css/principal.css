@@ -2,19 +2,38 @@
 .principal{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 45vw;
     
 }
 
 .principal__fundo{
-    /* position: absolute; */
     background: #6BD1FF;
-    
+    /* border: 32px solid #6BD1FF ; */
+    border-radius: 8px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    position: relative; 
+    height: 50vh;
+    box-sizing: border-box;
 }
-
 
 .principal__container{
+    position: absolute;
+    background: #141414;
 
 }
+
+ .codigo{
+    position: absolute;
+    background: #141414;
+    box-sizing: border-box;
+    left: 32px;
+    top: 32px;
+
+    /* width: 50%; */
+    border-radius: 8px;
+    resize: none;
+} 
 
 .principal__botao{
 
