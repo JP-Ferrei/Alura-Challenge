@@ -50,9 +50,11 @@
         <main class="principal">
             <div class="principal__fundo">
                 <div class="principal__container">
-                    <div class="bola bola_vermelha"></div>
-                    <div class="bola bola_amarela"></div>
-                    <div class="bola bola_verde"></div>
+                    <div class="bolas">
+                    <div class="bola bola__vermelha"></div>
+                    <div class="bola bola__amarela"></div>
+                    <div class="bola bola__verde"></div>
+                </div>
                     <textarea class="codigo"name="codigo" id="codigo" cols="30" rows="10" placeholder="Escrava seu código"></textarea>
                 </div>
             </div>
@@ -68,21 +70,24 @@
                 <h1>Seu projeto</h1>
                 <div class="seu__projeto">
                     <input type="text" name="nome-projeto" id="nome-projeto" class="input__projeto"  placeholder="Nome do seu projeto">
-                    <input type="text" name="descricao-projeto" id="descricao-projeto" class="input__projeto" placeholder="Descrição do seu projeto">
+                    <textarea type="text" name="descricao-projeto " id="descricao-projeto" class="input__projeto descricao__projeto"  placeholder="Descrição do seu projeto"></textarea>
                 </div>
 
                 <h1>personalização</h1>
                 <div class="personalizacao">
                     <select name="linguagens" id="linguagens" class="input__projeto input__personalizacao"   >
-                        <option value="0" selected >JavaScript</option>
-                        <option value="1" >Java</option>
-                        <option value="2" >C</option>
-                        <option value="3" >C++</option>
-                        <option value="4" >Python</option>
+                        <option class = "linguagens__opcoes" value="0" selected >JavaScript</option>
+                        <option class = "linguagens__opcoes" value="1" >Java</option>
+                        <option class = "linguagens__opcoes" value="2" >C</option>
+                        <option class = "linguagens__opcoes" value="3" >C++</option>
+                        <option class = "linguagens__opcoes" value="4" >Python</option>
                     </select>
+                    
+                    <div class= "projeto__fundo">
+                        <input type="color" class="input__projeto input__cor" value="#ff0000" >
+                    </div>
 
-
-                    <input type="button" value="Salvar projeto">
+                    <input type="button" class="projeto__botao" value="Salvar projeto">
                 </div>
 
             </form>

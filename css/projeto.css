@@ -14,3 +14,28 @@
     flex-direction: column;
 }
 
+.descricao__projeto{
+    height: 80px;
+    resize: none;
+    
+    font-family: inherit;
+    padding-top: 10px;  
+  
+}
+
+.linguagens__opcoes{
+    color : black;
+
+}
+
+.input__cor{
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.projeto__botao{
+    cursor: pointer;
+    color: black;
+    background: #5081FB;
+    height: 50px;
+}
